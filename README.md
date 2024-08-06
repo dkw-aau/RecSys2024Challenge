@@ -1,16 +1,16 @@
 # Ekstra Bladet new reranker 
 
-This repository contains the code as well as the obtained models for the DArgk team submission to the ACM RecSys Challenge 2024. 
+This repository contains the code and the pre-trained models for the DArgk team submission to the ACM RecSys Challenge 2024. 
 
 
 ## Proprocessing
 The notebook `01-DataPreprocess.ipynb` is intended for preprocessing the `articles`, `behaviors` and `behaviors` part of the dataset. 
 
-The notebook `02-Img-embs.ipynb` encode the Resnet embedding of the images into a more 128 dimension vectors using an autoencoder.
+The notebook `02-Img-embs.ipynb` encodes the Resnet embedding of the images into a more 128-dimension vector using an autoencoder.
 
 ## Generating the predictions
 
-This repository contains all the required files, but the dataset, for generating the rankins as submitted to the challenge. Steps for reproducing the results:
+This repository contains all the required files, but the dataset, for generating the rankings as submitted to the challenge. Steps for reproducing the results:
 
 1. Recreate the conda environment using the `environment.yml` file.
 ```bash 
@@ -28,7 +28,7 @@ python to_zip_format.py --exp v1_img_bce_val_epoch_9
 
 ## Training the model
 
-The model was trained fro 9 epochs in the training dataset, and finetuned for 1 ecoch on validation.
+The model was trained for 8 epochs in the training dataset and finetuned for 1 each on validation.
 
 For executing one epoch of training in the training dataset: 
 
