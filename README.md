@@ -41,7 +41,23 @@ For fine-tuning one epoch using the validation dataset:
 ```bash
 python train_1_img_bce_val_epoch.py
 ```
-
+## Cite
+```
+@inproceedings{10.1145/3687151.3687161,
+author = {Rodriguez, Juan Manuel and Tommasel, Antonela},
+title = {Leveraging User History with Transformers for News Clicking: The DArgk Approach},
+year = {2024},
+isbn = {9798400711275},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3687151.3687161},
+pages = {48–52},
+numpages = {5},
+location = {Bari, Italy},
+series = {RecSysChallenge '24}
+}
+```
+The paper is open access and can be found at [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3687151.3687161)
 ## Contact info:
 
 * [Antonela Tommasel](https://tommantonela.github.io) (antonela.tommasel@isistan.unicen.edu.ar)
